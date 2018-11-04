@@ -7,7 +7,7 @@
 \pard\pardeftab720\sl280\partightenfactor0
 
 \f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 body \{background: url("https://i.pinimg.com/originals/fc/09/f4/fc09f4874b9bee7fd983129e3ff388a7.gif") fixed;background-repeat: no-repeat;background-size: cover;color: #000;\}\
+\outl0\strokewidth0 \strokec2 body \{background: url("https://i.redd.it/4vfjr9e1wuey.gif") fixed;background-repeat: no-repeat;background-size: cover;color: #000;\}\
 \
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a \{\
 color: #000;\
@@ -229,8 +229,11 @@ border: 1px solid #000;\
 border-left: none;\
  font-family: 'Special Elite', Arial ,cursive;\
 \}\
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/holidays/hol-4/hol358.cur), auto !important;} /* End http://www.cursors-4u.com */
+
 \
 \
 body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img \{\
-content: url('https://i.imgur.com/MATciAf.png')\
+content: url('https://i.redd.it/4vfjr9e1wuey.gif')\
 }
