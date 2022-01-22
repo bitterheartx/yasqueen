@@ -1,0 +1,428 @@
+/*
+Template provided by Tetra #202
+Tetra's CSS Guide: https://www.wolvden.com/chatter/topic/15463
+Free for personal and commercial use.
+*/
+
+/* ## General ## */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Xanh+Mono&display=swap');
+
+body, .table th, .nav-tabs .nav-link.active {
+    background:url(https://giffiles.alphacoders.com/214/214384.gif)
+    center fixed !important;
+    background-size:cover !important;
+    font-family: quicksand;
+}
+
+a /* Links on entire page */ {
+color: #ffedda;
+}
+a:hover {
+    color: #ec8c90;
+}
+
+.alert /* Alerts and notifications */ {
+    background-color: rgb(41, 27, 40);
+    border: none;
+    border-radius: 10px;
+    color: #fdddb9;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .alert a /* Alert Links */ {
+    color: #ffefdc !important;
+} .alert a:hover /* Alert Links hover */ {
+    color: #ffefdc !important;
+}
+
+.box /* First Box on Profile if applicable */ {
+	background-color: rgb(41, 27, 40, 0.75);
+    color: #ffefdc;
+	text-align: center;
+	padding: 15px;
+	margin: 0 2% 30px;
+	border-radius: 10px 50px;
+	float: left;
+	width: 46%;
+	height: 145px;
+	overflow: auto;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}
+
+.box2 /* Second Box on Profile if applicable */ {
+	background-color: rgb(41, 27, 40, 0.75);
+    color: #ffefdc;
+	text-align: center;
+	padding: 15px;
+	margin: 0 2% 30px;
+	border-radius: 50px 10px;
+	float: left;
+	width: 46%;
+	height: 145px;
+	overflow: auto;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 0px;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
+
+.btn-danger /* Report Button */ {
+    background-color: #c96477;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #a84b5c;
+    color: #ffefdc;
+} .btn-danger:hover /* Report Button */ {
+    background-color: #9b4a59;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #73333e;
+    color: #ffefdc;
+}
+
+.btn-primary, .btn-success /* Update/Save Buttons entire page */ {
+    background-color: #c96477;
+    color: #ffefdc;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .btn-primary, .btn-success:hover {
+    background-color: #9b4a59;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}
+
+#bookmarkPage.fas.fa-bookmark.text-danger /* Bookmark Icon */ {
+    color: #ffefdc !important;
+}
+
+
+/* ## NAVBAR MAIN ## */
+
+#header .navbar-main /* Section containing the site navigation. */ {
+    font-family: xanh mono;
+    background-color: rgba(44, 23, 36, .35);
+    border-right: 1px solid #2c1724;
+    border-left: 1px solid #2c1724;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .2);
+} .navbar-main .nav-link /* Individual navigation links, 'Den, etc.' */ {
+    margin-left: 10px;
+    color: #fdddb9 !Important;
+} .navbar-main .nav-link:hover /* Hover of the above */ {
+    color: #ec8c90 !important;
+}
+#header .navbar-main .nav-link .fa /* Paw Icon, etc. of Den, etc. */ {
+    color: #ffefdc;
+}
+#header .navbar-main .nav-link:hover .fa /*icons of Den, etc. hover*/ {
+    color: #ec8c90;
+}
+
+.navbar-status /* Status bar containing your currencies, etc. */ {
+    background-color: rgba(44, 23, 36, .5) !important;
+    border-radius: 0px 0px 10px 10px;
+    border-right: 1px solid #2c1724;
+    border-left: 1px solid #2c1724;
+    border-bottom: 1px solid #2c1724;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+    color: #fdddb9 !important;
+} .navbar-status a {
+    color: #ffefdc !important;
+} .btn-group-vertical>.btn, .btn-group>.btn /* Username in that bar */ {
+    color: #ffefdc !important;
+}
+
+.breadcrumb-nav /* Gray breadcrumb bar under the status bar. */ {
+    background-color: transparent !Important;
+} .breadcrumb-nav a {
+    color: #ffedda;
+} .breadcrumb-item+.breadcrumb-item:before {
+    color: #ffedda;
+}
+
+.breadcrumb-item.active /* Pack Name in breadcrumb bar */ {
+    color: #ffedda;
+}
+
+.breadcrumb::after /* Credit */ {
+    content:'CSS by Rapirisu #5303';
+    position:absolute;
+    right:30px;
+    color: #ffedda;
+}
+
+#header .navbar-status a:hover /* Modbox icon Hover */ {
+    color: #ec8c90 !important;
+}
+
+
+/* ## SIDE BAR ## */
+
+#sidebar /* Section containing the sidebar. */ {
+    background-color: transparent !Important;
+    color: #fdddb9;
+}
+#sidebar #card-user h3 a {
+    font-family: xanh mono;
+}
+
+#sidebar .card /* "Card" sections of the sidebar. */ {
+    background-color: rgba(44, 23, 36, .5);
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+    border: 1px solid #2c1724;
+} #sidebar h3, #sidebar h4 /* Card headers. */ {
+    font-family: xanh mono;
+    color: #fdddb9 !Important;
+} .fa-lg /* arrow and plus in sidebar */ {
+    color: #fdddb9;
+}
+
+.card-body .w-50:first-child div /* Border Featured Wolf Sidebar */ {
+border: none !important;
+}
+
+.w-50 > a img /* Wolf Icon Sidebar */ {
+    border-radius: 5px 50px 20px 50px !important;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .2);
+}.w-50 div a img /* Featured Wolf Icon Sidebar */ {
+    border-radius: 20px 3px 20px 3px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .2);
+}
+
+.w-50 a img, .border-none .card-img-top, .table .form-row img {
+    border-radius: 5px 80px 5px 80px;
+    border: 1px solid #2c1724;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}
+.featured-wolf img {
+    border-radius: 50px 5px 50px 5px;
+    border: 1px solid #2c1724;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}
+
+
+/* ## MAIN PAGE ## */
+
+#main /* Section containing the site's main content. */ {
+    background-color: rgba(44, 23, 36, .5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+    border: 1px solid #2c1724;
+} h1 /* Pack Name Title */ {
+    font-family: xanh mono;
+    text-align: center;
+    color:#ffedda;
+} .nav-tabs /* Section containing the Den and Profile buttons. */ {
+    justify-content: center;
+    border-bottom: 1px solid #2c1724;
+} .nav-tabs .nav-link /* Individual links of the above section. */ {
+    background-color: rgba(44, 23, 36, .5);
+    border: none;
+    border: 1px solid #2c1724;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}.nav-tabs .nav-link:hover /* Hover of the above */ {
+    background-color: rgba(44, 23, 36, .6);
+    color: #fdddb9;
+    border: 1px solid #2c1724;
+} .nav-tabs .nav-link.active /* Link of the page being viewed. */ {
+    color: #5b334c;
+    border: none;
+    border: 1px solid #2c1724;
+} .nav-tabs .nav-link.active:hover {
+    color: #a84b5c;
+}
+
+
+/* ## Tables containing Wolf and Pack Information ## */
+
+.table /* Tables containing Pack or User information. */ {
+    border:none;
+    background-color: rgba(44, 23, 36, .5);
+    border-radius:10px;
+    color:#fdddb9;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .table a {
+    color: #fcac95;
+} .table th /* Individual table headers - 'King Ki'rael', Cave Names, etc. */ {
+    font-family: amatic sc;
+    text-shadow: 0px 0px 0px rgba(44, 23, 36);
+    letter-spacing: 1px;
+    color: #5b334c;
+    border-radius:10px 10px 0px 0px;
+} .table th a /* Pack Leader Name */ {
+    color: #8b5679;
+} .subheader /* Subheader row of Cave tables, 'Name, Stats, Info, etc.' */ {
+    background-color: #291b28 !important;
+    color:#fdddb9;
+}
+
+tr:nth-of-type(odd) /* Individual 'Stripes' of Pack Information */ {
+    background-color: rgba(44, 23, 36, .4) !important;
+}
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.featured-wolf /* Title of Featured Wolf 'For Sale, etc.' */ {
+    color: #fffcf5;
+}
+.border-none .card /* Card containing the Lead Wolf avatar, Breeding Male Symbol, etc. */ {
+    background-color:transparent !important;
+}
+.btn-group-sm>.btn, .btn-sm /* 'Remove' Symbol + Text below Featured Wolf */ {
+    color: #fcac95 !important;
+}
+i.fas.fa-mars.text-danger /* Breeding Male Symbol of Lead Wolf */ {
+    color: #fcac95 !important;
+}
+
+
+/* ## Dynasty, etc. Buttons ## */
+
+.card-header /* Shadow Line */ {
+    border:none;
+} div.card.text-center>img /* Dystasy, etc. Images */ {
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .col-6 .card.text-center /* 'Dynasty, etc.' Buttons */ {
+    border-radius: 10px;
+    background-color: #291b28 !important;
+    color:#fdddb9;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .col-6 .card.text-center:hover {
+    color: #ec8c90;
+}
+
+.col-md-3 .card img /* Cave Images */{
+    filter:sepia(40%) contrast(100%);
+    transition:.5s ease;
+} .col-md-3 .card:hover img{
+    filter:sepia(0%) contrast(100%);
+}
+
+
+/* ## Cave BottomStuff */
+
+.bottom /* 'Age Ascending, Update, etc.' of Cave Tables */ {
+    background-color: #291b28 !important;
+} .btn-primary, .btn-success /* Update Button of Caves individual */ {
+    /* Code */
+} .left /* Lefthand cells of the Member Information tables. */ {
+    /* CODE HERE */
+} .right /* Righthand cells of the Member Information tables. */ {
+    /* CODE HERE */
+} .form-control /* Age ascending, etc. menu. Don't fiddle with it too much */ {
+    color: #5b334c;
+}
+
+
+/* ## Progress Bars for Hunger, etc. ## */
+
+.progress /* Progress bars when empty */ {
+    background-color: #fcd0b6 !important;
+    border-radius: 5px;
+}
+#sidebar .bg-info, .bg-danger /* HP bars. These are blue. */ {
+    background-color: #e87987
+ !important;
+}
+#sidebar .bg-danger, .bg-primary  /* Hunger bars. These are red. */ {
+    background-color: #a26b9d
+ !important;
+}
+.bg-warning, .bg-success /* Energy bars. These are yellow. */ {
+    background-color: #754f80
+ !important;
+}
+#sidebar .bg-success, .bg-info /* EXP bars. These are green. */ {
+    background-color: #f49680
+ !important;
+}
+
+
+/* ## FAPA Buttons ## */
+
+.accordion .card:first-of-type /* Feed All Part */ {
+    background-color: #291b28 !important;
+    color:#fcac95;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}.accordion .card:first-of-type a {
+    color:#e87987 !important;
+}
+.accordion .card:last-of-type /* Play All Part */ {
+    background-color: #291b28 !important;
+    color:#fcac95;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+}.accordion .card:last-of-type a {
+    color:#e87987 !important;
+}
+.btn-info /* Feed/Play Buttons */ {
+    background-color: #e87987;
+    color:#ffedda !important;
+    border: none;
+    border-radius: 8px;
+} .btn-info:hover {
+    background-color: #9b4a59;
+    border: none;
+    border-radius: 8px;
+}
+.pl-0, .px-0 /* FAPA Name */ {
+    color:#e87987;
+} .pl-0, .px-0:hover /* FAPA Name */ {
+    color:#e87987 !important;
+}
+
+
+/* ## Editor at the Bottom ## */
+
+.h2, h2 /* 'Text for Den Options' */ {
+    color:#ffedda;
+}
+#summernote-form /* Background of Editor, NEEDS same color border */ {
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    color: black !important;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .note-toolbar .note-btn /* Individual buttons in Editor */ {
+    color: black !Important;
+}
+div.card.text-center /* Expand Territory + Add Immortal Slot Tables // NOTE: Border px affect Dynasty, etc. */ {
+    background-color: #fcd0b6 !important;
+    color:#5b334c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .5);
+} .btn-warning /* Buttons for those Tables */ {
+    background-color: #e87987;
+    border: none;
+    border-radius:10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .3);
+} .btn-warning:hover {
+    background-color: #9b4a59;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(44, 23, 36, .3);
+}
+
+
+/* ## Footer ## */
+
+#footer /* Copyright content at the page bottom. Don't obscure or mess with it too much. */ {
+    background-color: rgb(41, 27, 40, .8);
+    border-radius: 10px 10px 0px 0px;
+}
+#footer a:hover {
+    color: #fcac95 !important;
+}
